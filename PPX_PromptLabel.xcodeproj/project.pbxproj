@@ -15,6 +15,7 @@
 		5728F10D1DAA47FE009E4FAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5728F10B1DAA47FE009E4FAD /* LaunchScreen.storyboard */; };
 		5728F1181DAA47FE009E4FAD /* PPX_PromptLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5728F1171DAA47FE009E4FAD /* PPX_PromptLabelTests.m */; };
 		5728F1231DAA47FE009E4FAD /* PPX_PromptLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5728F1221DAA47FE009E4FAD /* PPX_PromptLabelUITests.m */; };
+		5728F1331DAA4846009E4FAD /* PromptView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5728F1321DAA4846009E4FAD /* PromptView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		5728F11E1DAA47FE009E4FAD /* PPX_PromptLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PPX_PromptLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5728F1221DAA47FE009E4FAD /* PPX_PromptLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPX_PromptLabelUITests.m; sourceTree = "<group>"; };
 		5728F1241DAA47FE009E4FAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5728F1311DAA4846009E4FAD /* PromptView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PromptView.h; sourceTree = "<group>"; };
+		5728F1321DAA4846009E4FAD /* PromptView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PromptView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		5728F0FC1DAA47FE009E4FAD /* PPX_PromptLabel */ = {
 			isa = PBXGroup;
 			children = (
+				5728F1301DAA4816009E4FAD /* PromptView */,
 				5728F1001DAA47FE009E4FAD /* AppDelegate.h */,
 				5728F1011DAA47FE009E4FAD /* AppDelegate.m */,
 				5728F1031DAA47FE009E4FAD /* ViewController.h */,
@@ -138,6 +142,16 @@
 				5728F1241DAA47FE009E4FAD /* Info.plist */,
 			);
 			path = PPX_PromptLabelUITests;
+			sourceTree = "<group>";
+		};
+		5728F1301DAA4816009E4FAD /* PromptView */ = {
+			isa = PBXGroup;
+			children = (
+				5728F1311DAA4846009E4FAD /* PromptView.h */,
+				5728F1321DAA4846009E4FAD /* PromptView.m */,
+			);
+			name = PromptView;
+			path = PromptLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5728F1331DAA4846009E4FAD /* PromptView.m in Sources */,
 				5728F1051DAA47FE009E4FAD /* ViewController.m in Sources */,
 				5728F1021DAA47FE009E4FAD /* AppDelegate.m in Sources */,
 				5728F0FF1DAA47FE009E4FAD /* main.m in Sources */,

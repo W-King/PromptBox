@@ -10,4 +10,7 @@
 
 @interface PromptView : UIView
 
++(void)showPPXPromptMassage:(NSString*)msg;
+
+
 @end

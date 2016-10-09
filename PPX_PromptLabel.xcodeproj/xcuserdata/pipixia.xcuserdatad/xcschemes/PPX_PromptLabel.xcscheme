@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5728F0F91DAA47FE009E4FAD"
+               BuildableName = "PPX_PromptLabel.app"
+               BlueprintName = "PPX_PromptLabel"
+               ReferencedContainer = "container:PPX_PromptLabel.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5728F1121DAA47FE009E4FAD"
+               BuildableName = "PPX_PromptLabelTests.xctest"
+               BlueprintName = "PPX_PromptLabelTests"
+               ReferencedContainer = "container:PPX_PromptLabel.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5728F11D1DAA47FE009E4FAD"
+               BuildableName = "PPX_PromptLabelUITests.xctest"
+               BlueprintName = "PPX_PromptLabelUITests"
+               ReferencedContainer = "container:PPX_PromptLabel.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "5728F0F91DAA47FE009E4FAD"
+            BuildableName = "PPX_PromptLabel.app"
+            BlueprintName = "PPX_PromptLabel"
+            ReferencedContainer = "container:PPX_PromptLabel.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "5728F0F91DAA47FE009E4FAD"
+            BuildableName = "PPX_PromptLabel.app"
+            BlueprintName = "PPX_PromptLabel"
+            ReferencedContainer = "container:PPX_PromptLabel.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "5728F0F91DAA47FE009E4FAD"
+            BuildableName = "PPX_PromptLabel.app"
+            BlueprintName = "PPX_PromptLabel"
+            ReferencedContainer = "container:PPX_PromptLabel.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
